@@ -1,0 +1,39 @@
+.main-container{
+position:sticky;
+top: 0;
+display: flex;
+justify-content: center;
+align-items:center;
+background-color:black;
+background-color:rgb(20, 20, 20);
+background-color: transparent;
+height: 10vh;
+color:rgba(255, 255, 255, 0.835);
+transition:all 0.5s;
+transition-timing-function: ease-in;
+z-index: 1;
+background-color: black;
+
+}
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.header-left ul{
+    width: 130%;
+   
+}
+.header-right ul{
+    width: 135%;
+    
+}
+.left-ul , .right-ul{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
