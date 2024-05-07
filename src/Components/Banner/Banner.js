@@ -39,13 +39,21 @@ const Banner = () => {
 				<h1 className="banner-title">
 					{movie?.title || movie?.name || movie?.original_name}
 				</h1>
+
 				<div className="banner-button">
-					<button className="play"> <PlayArrowIcon/> Play</button>
+					<button className="play">
+						{" "}
+						<PlayArrowIcon /> Play
+					</button>
 					<button className="info">
 						<InfoOutlinedIcon /> More Info
 					</button>
 				</div>
-				<h1 className="banner-discription"> {truncate(movie?.overview, 150)}</h1>
+				<h1 className="banner-discription">
+					{" "}
+					{truncate(movie?.overview, 150)}
+				</h1>
+				<div className="banner-fade"></div>
 			</div>
 		</div>
 	);
