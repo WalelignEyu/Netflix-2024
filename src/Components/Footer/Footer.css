@@ -9,8 +9,7 @@
     margin-right: 20px;
 }
 .footer-icons{
-    width: auto;
-    margin-right: 480px;
+    width: 9vw;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -21,6 +20,7 @@
     font-size: 12px;
 }
 .footer-data ul{
+    width: 25vw;
     list-style: none;
     display: flex;
     flex-direction: column;

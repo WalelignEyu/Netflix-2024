@@ -60,7 +60,8 @@ color: white;
 background-color: #161515;
 transition: all0.2s;
 }
-.banner-fade{
+/* .banner-fade{
+    height: 40vh;
     background-image: linear-gradient(180deg, transparent,rgba(37, 37, 37, 0.939), #111);
 
-}
+} */
