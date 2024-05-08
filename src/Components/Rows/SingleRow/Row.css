@@ -27,3 +27,6 @@ max-height: 250px;
     margin-left: 20px;
     color: white;
 }
+.row h3{
+    font-size: 3vh;
+}
