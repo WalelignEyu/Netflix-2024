@@ -7,7 +7,7 @@
 }
 .row-posters{
     display: flex;
-    overflow: hidden;
+    overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
 }
@@ -28,5 +28,6 @@ max-height: 250px;
     color: white;
 }
 .row h3{
+    margin-top: 5px;
     font-size: 3vh;
 }
