@@ -24,13 +24,16 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
             setTrailer('')
         }else{
             movieTrailer(movie?.title || movie?.name || movie?.original_name)
-            .then((url)=>{
-                console.log(url)
-                const urlParams = new URLSearchParams(new URL(url).search)
-                console.log(urlParams)
-                console.log(urlParams.get('v'))
-                setTrailer(urlParams.get('v'));
-            })
+							.then((url) => {
+								console.log("Trailer URL:", url);
+								const urlParams = new URLSearchParams(new URL(url).search);
+								const videoId = urlParams.get("v");
+								setTrailer(videoId);
+							})
+							.catch((error) => {
+								console.error("Error finding trailer:", error);
+								setTrailer("Oops!");
+							});
         }
     }
     const opts = {
