@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Netflix-2024/static/css/main.06ac695d.css",
+    "main.js": "/Netflix-2024/static/js/main.c6d9fadc.js",
+    "static/media/Netflix_Logo.png": "/Netflix-2024/static/media/Netflix_Logo.f4070143e1f521da82a1.png",
+    "index.html": "/Netflix-2024/index.html",
+    "main.06ac695d.css.map": "/Netflix-2024/static/css/main.06ac695d.css.map",
+    "main.c6d9fadc.js.map": "/Netflix-2024/static/js/main.c6d9fadc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06ac695d.css",
+    "static/js/main.c6d9fadc.js"
+  ]
+}
