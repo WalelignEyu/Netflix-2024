@@ -1,0 +1,33 @@
+.main{
+    margin: 0 100px;
+    padding: 20px;
+}
+.terms_img{
+    height: 100px;
+    padding-bottom: 150px;
+    position: relative;
+    padding-top: 100px;
+    background-image: url(../../assets/10005.png);
+    background-size: cover;
+    background-color: #fafafa;
+    background-position: 50% 80%;
+}
+.parag{
+    font-size: 18px;
+    color: #6e7d99;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 30px;
+    color: #000;
+    line-height: 1.3em;
+}
+.centered{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.main h2{
+    font-size: 20px;
+    color: #344666;
+}
