@@ -54,18 +54,18 @@ display: flex;
 }
 @media screen and (max-width: 768px) {
   .header-left ul li:not(:first-child):not(:nth-child(2)) {
-    display: none; /* Hide all list items except the first and second */
+    display: none; 
   }
 
   .header-left ul li img,
   .header-left ul li p {
-    display: block; /* Make the img and p elements visible */
+    display: block; 
   }
   .header-left ul li p {
-    display: flex; /* Added to align icon and text horizontally */
+    display: flex; 
     justify-content: space-between;
-    align-items: center; /* Added to vertically center the content */
-    padding: 0.5rem 1rem; /* Adjusted padding */
+    align-items: center; 
+    padding: 0.5rem 1rem;
   }
    .header-right ul li:not(:first-child):not(:nth-child(3)):not(:nth-child(4)) {
     display: none;

@@ -38,13 +38,13 @@ padding: 1rem 1rem;
 }
 .play,
 .info {
-    height: auto; /* Adjusted height to auto */
-    width: auto; /* Adjusted width to auto */
-    display: flex; /* Added to align icon and text horizontally */
+    height: auto; 
+    width: auto; 
+    display: flex; 
     justify-content: space-between;
-    align-items: center; /* Added to vertically center the content */
-    padding: 0.5rem 1rem; /* Adjusted padding */
-    margin-right: 10px; /* Added to create space between buttons */
+    align-items: center; 
+    padding: 0.5rem 1rem;
+    margin-right: 10px; 
 }
 .play{
     color: #000;

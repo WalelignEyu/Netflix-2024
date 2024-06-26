@@ -40,16 +40,7 @@ const Banner = () => {
 					{movie?.title || movie?.name || movie?.original_name}
 				</h1>
 
-				{/* <div className="banner-button">
-					<button className="play">
-						{" "}
-						<PlayArrowIcon /> Play
-					</button>
-					<button className="info">
-						More Info
-						<InfoOutlinedIcon />
-					</button>
-				</div> */}
+				
 				<div>
 					<p className="banner-discription">
 						{" "}
